@@ -1,9 +1,9 @@
 package org.java.practice;
-import java.io.*;
+//import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+//import java.text.*;
+//import java.math.*;
+//import java.util.regex.*;
 
 public class Solution {
 
@@ -15,6 +15,7 @@ public class Solution {
                 arr[i][j] = in.nextInt();
             }
         }
-        int[] sum = new int[16];
+        in.close();
+        //int[] sum = new int[16];
     }
 }

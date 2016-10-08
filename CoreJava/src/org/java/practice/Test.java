@@ -15,7 +15,6 @@ public class Test {
         {
             deque[i] = in.nextInt();   
         }
-        int var = 0;
         for(int i = 0;i<n-m+1;i++)
             {
             HashSet<Integer> set = new HashSet<Integer>();
@@ -37,6 +36,7 @@ public class Test {
             
             }
             System.out.println(count);
+            in.close();
             
         
     }
